@@ -24,6 +24,12 @@ const Index: NextPage = () => {
         destination="/dynamic-navigation/sp-01/client150"
         color="#FF00AB"
       />
+      <Nav linkDescription="Increment" destination="/state" color="red" />
+      <Nav
+        linkDescription="Increment"
+        destination="/get-from-api"
+        color="pink"
+      />
     </div>
   );
 };
